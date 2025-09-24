@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #2e3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #555;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 10px auto;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #2c3e50;
+}
+
+input, textarea {
+    width: 100%;               /* Full width */
+    max-width: 400px;          /* But not too wide */
+    padding: 10px;             /* Inner spacing */
+    margin: 8px auto;          /* Space between fields + center */
+    display: block;            /* Forces each field on a new line */
+    border: 1px solid #ccc;    /* Light gray border */
+    border-radius: 5px;        /* Rounded corners */
+    font-size: 14px;
+}
+
+button {
+    background: #2c3e50;       /* Dark blue-gray background */
+    color: white;              /* White text */
+    padding: 10px 20px;        /* Space inside */
+    border: none;              /* Removes default border */
+    border-radius: 5px;        /* Rounded corners */
+    cursor: pointer;           /* Shows pointer on hover */
+    display: block;            /* Puts button on its own line */
+    margin: 15px auto;         /* Centers button */
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1a242f;       /* Darker shade when hovered */
+}
+
+section {
+    max-width: 800px;       /* Keeps content centered and not too wide */
+    margin: 40px auto;      /* Adds spacing between sections */
+    padding: 20px;          /* Inner spacing */
+    background: #fff;       /* White background for contrast */
+    border-radius: 10px;    /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+nav {
+    border-color: #2c3e50;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+
+}
+
+nav ul li a {
+    color: blueviolet ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul a:hover {
+    color: #f39c12;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .social a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+
+}
+
+footer .social a:hover {
+    color: #fff;
+}
